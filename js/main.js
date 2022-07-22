@@ -75,3 +75,15 @@
 
 })(jQuery);
 
+
+$(function () {
+	$('#colorlib-aside #colorlib-main-menu li a').each(function () {
+		const value = window.location.href;
+		
+        
+		if ($(this).prop('href') == window.location.href) {
+			$(this).addClass('current');
+			$(this).addClass('nothing');
+		}
+	});
+});

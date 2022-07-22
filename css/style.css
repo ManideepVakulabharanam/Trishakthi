@@ -10934,6 +10934,21 @@ nav.shift ul li a:hover:after {
   -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+#colorlib-aside #colorlib-main-menu ul li .nothing:after {
+  content: none;
+}
+
+.current {
+	content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-bottom-style: solid;
+  border-bottom-color: #ff6768;
+
+}
+
 #colorlib-aside #colorlib-main-menu ul li a:hover {
   text-decoration: none;
   color: black;
@@ -10949,6 +10964,8 @@ nav.shift ul li a:hover:after {
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
   color: #ff6768;
 }
+
+
 #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
   visibility: visible;
   -webkit-transform: scaleX(1);
@@ -10958,6 +10975,7 @@ nav.shift ul li a:hover:after {
   transform: scaleX(1);
 }
 
+
 #colorlib-main {
   width: 100%;
   float: right;
@@ -10965,7 +10983,6 @@ nav.shift ul li a:hover:after {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 0px;
-  
 }
 @media (prefers-reduced-motion: reduce) {
   #colorlib-main {
@@ -10977,7 +10994,6 @@ nav.shift ul li a:hover:after {
 @media (min-width: 992px) {
   #colorlib-main {
     width: 80%;
-   
   }
 }
 

@@ -875,8 +875,8 @@ Home Slider Area
   width: 80px;
   height: 80px;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 0px;
+  right: 60px;
   z-index: 1000;
 }
 .img-fluid {
